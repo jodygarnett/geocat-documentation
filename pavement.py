@@ -61,8 +61,8 @@ products = {"bridge": "bridge-documentation",
 ])
 def all(options):
     fetch(options)
-    builddocs(options)
-    deploy(options)
+    builddocs()
+    deploy()
 
 @task
 @cmdopts([
